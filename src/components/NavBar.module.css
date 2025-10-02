@@ -1,0 +1,43 @@
+.bar{ 
+    background: #0a22f4; 
+    padding: 16px 0; 
+    position: sticky; 
+    top: 0; z-index: 40; 
+}
+
+.pill{
+background: #ffffff;
+border-radius: 12px;
+border: 1px solid rgba(0,0,0,.08);
+box-shadow: 0 10px 20px rgba(0,0,0,.05);
+padding: 10px 14px;
+display: flex; gap: 8px; align-items: center; justify-content: center;
+}
+
+.item{ 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; padding: 8px 14px; 
+    border-radius: 8px; 
+    font-weight: 500; 
+    color: #374151; 
+}
+
+.item:hover{ 
+    background: #f3f4f6; 
+    text-decoration: none; 
+}
+
+.active{ 
+    background: #eef2ff; 
+    color: #111827; 
+}
+
+.icon{ 
+    width: 18px; 
+    height: 18px; 
+    stroke: #6b7280;
+}
+
+.active .icon { stroke: #111827; }
+.spacer { height: 0; }

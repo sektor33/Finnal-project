@@ -1,0 +1,27 @@
+.wrap{ 
+ background: #f3f4f6; 
+ border-top: 1px solid #e5e7eb; 
+}
+
+
+.inner{ 
+    height: 56px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    font-size: 14px; 
+    color: #6b7280; 
+}
+
+.links{ display: flex; 
+    gap: 20px; 
+}
+
+.links a{ 
+    color: #6b7280; 
+    text-decoration: none; 
+}
+
+.links a:hover{ 
+    text-decoration: underline; 
+}
