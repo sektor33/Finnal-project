@@ -90,4 +90,6 @@ npm run dev
 # 4. Open in browser with Ctrl and click
 http://localhost:3000
 
+##  Live Demo  
+[https://finnal-project-flax.vercel.app](https://finnal-project-flax.vercel.app)
 
